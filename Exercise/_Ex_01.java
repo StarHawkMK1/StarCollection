@@ -1,5 +1,11 @@
 package Star;
 
+//        *****
+//        *****
+//        *****
+//        *****
+//        *****
+
 public class _Ex_01 {
     public static void main(String[] args) {
         for (int i = 1; i <= 5; i++) {           // <몇 줄 찍을까?> i=1,2,3,4,5 -> {}안의 내용(내부for문)을 5번 반복
