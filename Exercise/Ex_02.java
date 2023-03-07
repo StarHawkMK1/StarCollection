@@ -42,10 +42,10 @@ public class Ex_02 {
         System.out.println("---------------");
 
         for (int i = 1; i <= 5; i++) {              // #2코드
-            for (int j = 5; j > i; j--) {           // i값과 연동하여 공백 우선출력(4~0개)
+            for (int j = 5; j > i; j--) {           // 공백을 출력하는 j for문. i값과 연동하여 공백 우선출력(4~0개)
                 System.out.print(" ");
             }
-            for (int j = 1; j <= i; j++) {          // 공백 출력 후, i값과 연동하여 *출력
+            for (int j = 1; j <= i; j++) {          // *을 출력하는 j for문. 공백 출력 후, i값과 연동하여 *출력
                 System.out.print("*");
             }
             System.out.println();

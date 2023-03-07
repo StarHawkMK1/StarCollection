@@ -24,11 +24,11 @@ public class Ex_03 {
         System.out.println("-----------------");
 
         for (int i = 1; i <= 5; i++) {
-            for (int j = 1; j <= i-1; j++) {    // i값과 연동하여 공백 우선출력(0~4개)
+            for (int j = 1; j < i; j++) {       // 공백을 출력하는 j for문. i값과 연동하여 공백 우선출력(0~4개)
                 System.out.print(" ");
             }
             for (int j = 5; j >= i; j--) {
-                System.out.print("*");          // 공백 출력 후, i값과 연동하여 *출력
+                System.out.print("*");          // *을 출력하는 j for문. 공백 출력 후, i값과 연동하여 *출력
             }
             System.out.println();
         }
